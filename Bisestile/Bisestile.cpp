@@ -14,7 +14,7 @@ bool isLeap(int year)
 	return true;
 }
 
-bool isInt(string input)
+bool isInt(const string& input )
 {
 	if (input.size() > 9)
 		return false;
